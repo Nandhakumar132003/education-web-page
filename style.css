@@ -1,0 +1,78 @@
+.carousel-inner .carousel-item {
+    height: 100%; /* or width: 100% !important; */
+    }
+.carousel-caption{
+    margin-bottom: 20%;
+}
+.welcome-page-text{
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.paragraph{
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 15px;
+    color: gray;
+}
+.wrapper {
+	width: 80%;
+	margin: 50px auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 30px;
+}
+.wrapper img {
+	width: 100%;
+	cursor: pointer;
+	transition: 1s ease;
+}
+.wrapper img:hover {
+	transform: scale(1.1);
+}
+.contact-us{
+    text-align: center;
+}
+.hover-png {
+    width: 100%;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.hover-png:hover {
+    transform: scale(1.1);
+}
+.wrappers {
+	width: 80%;
+	margin: 50px auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 30px;
+}
+.wrappers img {
+	width: 100%;
+	cursor: pointer;
+	transition: 1s ease;
+}
+.wrappers img:hover {
+	transform: scale(1.1);
+}  
+.contact-us{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+h2{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
